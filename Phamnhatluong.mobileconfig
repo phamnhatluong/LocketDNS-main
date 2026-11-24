@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>DNS Phạm Nhật Lương</string>
+    <key>PayloadDescription</key>
+    <string>Cấu hình DNS của Phạm Nhật Lương.</string>
+    <key>PayloadIdentifier</key>
+    <string>io.nextdns.d1447b.profile</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.d1447b</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/d1447b</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>revenuecat.com</string>
+                    <string>api.revenuecat.com</string>
+                    <string>app.revenuecat.com</string>
+                    <string>sdk.revenuecat.com</string>
+                    <string>backend.revenuecat.com</string>
+                    <string>purchases.revenuecat.com</string>
+                    <string>rc-backup.com</string>
+                    <string>api.rc-backup.com</string>
+                    <string>firebaseremoteconfig.googleapis.com</string>
+                    <string>in.appcenter.ms</string>
+                    <string>app-measurement.com</string>
+                    <string>firebaselogging-pa.googleapis.com</string>
+                    <string>mixpanel.com</string>
+                    <string>api.mixpanel.com</string>
+                </array>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>WiFi</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>Cellular</string>
+                </dict>
+            </array>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>io.nextdns.d1447b.profile.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.d1447b.dnsSettings.managed</string>
+            <key>PayloadDisplayName</key>
+            <string>DNS Phạm Nhật Lương</string>
+            <key>PayloadOrganization</key>
+            <string>Phạm Nhật Lương</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadOrganization</key>
+    <string>Phạm Nhật Lương</string>
+</dict>
+</plist>
